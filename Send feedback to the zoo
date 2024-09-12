@@ -1,0 +1,8 @@
+We have the see how the website function 
+open burpsuite and make sure that the intercept mode is on 
+we try to send a request and we send the reqesut to repeater
+Then now we can start to see if the website is vulnerabilty to XML
+we can start by using this line <!DOCTYPE replace [<!ENTITY file SYSTEM "/etc/passwd"> ]> and we see what is the output
+after that we will see a list of directonary but they all will not give you anything 
+then we can see the docker file adn it create something called /app
+after that we can just put <!DOCTYPE replace [<!ENTITY file SYSTEM "/app/flag.txt"> ]>
