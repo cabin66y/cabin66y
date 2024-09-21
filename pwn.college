@@ -54,5 +54,4 @@ curl localhost/<the header value must be this>
 Pwn.college level 8
 using nc 
 
-first we need to find a file called req.py
-the wen type this command GET /<This is where you put the header value> HTTP/1.1
+we type in this command echo -e "GET /<This will be the the header value> HTTP/1.1\n" | nc localhost 80
