@@ -1,4 +1,0 @@
-how to do xss scripting 
-
-First we have to test the website for xss scripting
-we enter <script>lert("Hacked by xavier");</script>
