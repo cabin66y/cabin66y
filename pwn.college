@@ -1,0 +1,46 @@
+Pwn.college level 1 
+using curl 
+curl localhost 
+
+Pwn.college level 2 
+using nc 
+echo -e "GET / HTTP/1.1\n" | nc localhost 80
+
+Pwn.college level 3
+sending a request using a python script 
+
+import request as r (this mean that we want to import request and named the bariable as r)
+
+http = "127.0.0.1"
+response = r.get(host)
+
+print(response.text)
+
+Pwn.college level 4
+using curl 
+
+curl -H "HOST: <this value will be change"
+
+Pwn.college level 5
+
+using nc 
+we will start the challenge after you will see something called the value must be something and you have to copy that
+after that you have to change your to the web directonray 
+after you ls you will see  file called req.py
+Then you have to enter that file anything you type the following script 
+GET / HTTP/1.1
+HOST: You psate the value must be something on this line 
+After that you must leave one line here
+you exit this file you use a file called cat 
+you type this commnd cat req.py | nano localhost 80
+
+Pwn.collehge level 6
+using  python script 
+
+import request as r 
+host = "http://127.0.0.1"
+header = {"Host": "This is the header value"}
+
+
+response = r.get(host, headers=header)
+print(response.text)
