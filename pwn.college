@@ -24,6 +24,7 @@ curl -H "HOST: <this value will be change"
 Pwn.college level 5
 
 using nc 
+
 we will start the challenge after you will see something called the value must be something and you have to copy that
 after that you have to change your to the web directonray 
 after you ls you will see  file called req.py
@@ -44,3 +45,12 @@ header = {"Host": "This is the header value"}
 
 response = r.get(host, headers=header)
 print(response.text)
+
+Pwn.college level 7
+using curl 
+
+curl localhost/<the header value must be this>
+
+Pwn.college level 8
+using nc 
+
