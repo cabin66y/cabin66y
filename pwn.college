@@ -68,3 +68,40 @@ print(response.text)
 Pwn.college level 10
 using curl 
 
+curl localhost<This is the header value and remeber to put %20 because it represent spce in a uncoded url format>
+
+Pwn.college level 11 
+using nc 
+
+nc localhost 80
+GET <the header value remeber to put %20 for space>
+
+Pwn.college 12
+Using python script 
+
+import requests as r 
+host = "http;//127.0.0.1/<the header value remeber to put the %20 for the space value>
+
+Pwn.College 13
+Using curl 
+
+curl localhost/?a=2b0418d555bfb4d4a01b00052641f897(This is the header and the ?a= is the query)
+
+Pwn.college 14
+using nc 
+
+nc localhost 80
+GET /?a=<the header value>
+
+Pwn.college 15
+Python script 
+
+import requests as r 
+host = "http://127.0.0.1/?a=<The header value>"
+response = r.get(host)
+print(response.text)
+
+Pwn.college 16 
+
+using curl 
+
