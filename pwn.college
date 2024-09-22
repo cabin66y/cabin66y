@@ -55,3 +55,16 @@ Pwn.college level 8
 using nc 
 
 we type in this command echo -e "GET /<This will be the the header value> HTTP/1.1\n" | nc localhost 80
+
+Pwn.college level 9 
+using a python script 
+
+import requests as r 
+host = "httpp://127.0.0.1<This will header>"
+
+response = r.get(host)
+print(response.text)
+
+Pwn.college level 10
+using curl 
+
