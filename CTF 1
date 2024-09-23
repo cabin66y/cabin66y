@@ -1,0 +1,11 @@
+CTF 1
+
+sudo netdiscover
+
+nmap -p- -A <Ip address of the vm>
+
+We will see a ip address link at the bottem of the http port then we copy and paste it on the url and it should bring us to a website 
+
+after that we can use nikto to find for web vulnerability 
+
+nikto -h <ip address>
