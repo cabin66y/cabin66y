@@ -1,7 +1,7 @@
 Intro to commands 
 
-whoami 
+-whoami 
 
 Intro to Argument
 
-hello hacker
+- hello hacker
